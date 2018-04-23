@@ -1,6 +1,6 @@
 To Run FAQ Project:
 
-1.  git clone https://github.com/varnelle/MiniProject2_FAQ
+1.  git clone https://github.com/varnelle/MiniProject3_FAQ
 2.  CD into FAQ and run composer install
 3.  cp .env.example to .env
 4.  run: php artisan key:generate
