@@ -41,11 +41,10 @@ class AnswerController extends Controller
     {
 
         $input = $request->validate([
-            'body' => 'required|alpha|min:5',
+            'body' => 'required|min:5',
         ], [
 
             'body.required' => 'Body is required',
-            'body.alpha' => 'Body must be alphanumeric',
             'body.min' => 'Body must be at least 5 characters',
 
         ]);
