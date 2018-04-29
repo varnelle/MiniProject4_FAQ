@@ -43,14 +43,16 @@
                                 </div>
                             </div>
                         @empty
-                            <div class="card">
-
-                                <div class="card-body"> No Answers</div>
-                            </div>
+                            <a class="btn btn-primary"
+                               href="{{ route('question create' }}">
+                                There are no questions to view; create a question
+                            </a>
                         @endforelse
 
 
                     </div>
-                </div>
-            </div>
+                < <div class="card">
+
+                        <div class="card-body"> No Answers</div>
+                    </div>
 @endsection
