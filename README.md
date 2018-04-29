@@ -1,6 +1,7 @@
 To Run FAQ Project:
+In Project we learned how to create Edit and Deletes
 
-1.  git clone https://github.com/varnelle/MiniProject3_FAQ
+1.  git clone https://github.com/varnelle/MiniProject4_FAQ
 2.  CD into FAQ and run composer install
 3.  cp .env.example to .env
 4.  run: php artisan key:generate
