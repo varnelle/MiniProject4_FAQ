@@ -47,14 +47,15 @@ class ProfileController extends Controller
     public function store(Request $request)
     {
         $input = $request->validate([
-            'fname' => 'required|alpha',
-            'lname' => 'required|alpha',
+            'fname' => 'required',
+            'lname' => 'required',
+            'body' => 'required',
+
         ], [
 
             'fname.required' => ' First is required',
-            'fname.alpha' => ' must be alphanumeric',
             'lname.required' => ' Last is required',
-            'lname.alpha' => ' must be alphanumeric',
+            'body.required' => ' Body is required',
 
         ]);
         $input = request()->all();
